@@ -1,0 +1,220 @@
+body{
+    background-color: #3B3B3B;
+    height: 100vh;
+}
+
+.container{
+    margin: 0 120px;
+}
+
+.block-of-logo-and-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.nav-link{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-decoration: none;
+    margin-left: 80px;
+
+}
+
+.nav-link:hover{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-decoration: underline;
+    margin-left:  80px;
+    text-underline-offset: 20px;
+}
+
+.search-field{
+    width: 80%;
+    background-color:#FFF;
+    border-radius: 50px;
+    display: flex;
+   margin: 20px auto;
+}
+
+.search-field img{
+    border-right: 1px solid black;
+    padding: 10px 20px;
+}
+
+.search-input{
+    background-color: #FFF;
+    border: none;
+    padding: 10px 30px;
+    font-size: 24px;
+    width: 80%;
+    border-radius: 0 50px  50px 0;
+}
+
+.search-input:active{
+    background-color: #FFF;
+    border: none;
+    padding: 10px 30px;
+    font-size: 24px;
+    width: 80%;
+}
+
+.admin-panel-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px
+}
+
+.admin-panel-block{
+    display: flex;
+    margin: 100px 0;
+    gap: 50px;
+    justify-content: center;
+}
+
+.search-elem-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 72px;
+    background: #D9D9D9;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.system-notifications-title{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.system-notifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.system-notifications-elem{
+    color: #4F4F4F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    border-bottom: 2px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+.admin-panel-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.admin-panel-btn{
+    border-radius: 50px;
+    background: #D9D9D9;
+    border: none;
+    padding: 10px ;
+}
+
+.admin-panel-btn:hover{
+    border-radius: 50px;
+    background: #b5b5b5;
+    border: none;
+    padding: 10px ;
+}
+
+.admin-panel-btn img{
+    width: 72px;
+}
+
+.admin-panel-btn p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+}
+
+footer{
+    background-color: #EBEBEB;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.footer-link:hover{
+    text-decoration: none;
+    color: #9e9e9e;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.footer-leftside{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.other-sources-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.other-source{
+    height: 64px;
+}
+
+.footer-logo{
+    height: 150px;
+}

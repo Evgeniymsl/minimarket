@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../modal-window/registration-modal-window-style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="card-product-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>card product</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="block-of-logo-and-nav">
+                <img src="/images/logo-white.svg" alt="логотип маркета" class="logo-white">
+                <nav>
+                    <a href="../main.page-folder/main-page.html" class="nav-link">Главная</a>
+                    <a href="../catalog-page-folder/catalog-page.html" class="nav-link">Каталог</a>
+                    <a href="#" class="nav-link" onclick="openModal()">Личный кабинет</a>
+                    <a href="../vacancies/vacancies.html" class="nav-link">Вакансии</a>
+                </nav>
+            </div>
+           <p class="card-product-desc"><span>Шоколад</span> - это нежное и ароматное лакомство, которое покоряет сердца миллионов людей по всему миру. Он изготавливается из какао-бобов, подвергнутых специальной обработке, чтобы сохранить все их вкусовые и ароматические качества.</p>
+           <div class="buy-block">
+                <div class="pice-and-weight-block">
+                    <p class="pice-and-weight-elem">100 ₽</p>
+                    <p class="pice-and-weight-elem">100 гр</p>
+                </div>
+                <div class="add-to-card">
+                    <button class="add-to-card-btn">Добавить в корзину</button>
+                </div>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="compound-block">
+                <p class="compound-desc">
+                    В состав настоящего шоколада входят:
+                </p>
+                <ul>
+                    <li>тертое какао;</li>
+                    <li>масло какао;</li>
+                    <li>сахарная пудра;</li>
+                    <li>добавки (молоко, изюм, орехи и др.);</li>
+                    <li>ароматизаторы (ванилин, мята, и др.).</li>
+                </ul>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-leftside">
+                    <img src="/images/logo-black.svg" alt="логотип маркета" class="footer-logo">
+                    <div class="footer-links">
+                        <a href="" class="footer-link">О нас</a>
+                        <a href="" class="footer-link">Техподдержка</a>
+                        <a href="" class="footer-link">Сотрудничество</a>
+                        <a href="" class="footer-link">контактная информация</a>
+                    </div>
+                </div>
+                <div class="other-sources-block">
+                    <img src="/images/GitHub.svg" alt="Мы на GitHub" class="other-source">
+                    <img src="/images/VK.svg" alt="Мы во вконтакте" class="other-source">
+                    <img src="/images/Telegram.svg" alt="Мы в телеграмме" class="other-source">
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <div class="modal-window" id="myModal">
+        <div class="modal-content" id="myModal1">
+            <button class="modal-window-btn-close" onclick="closeModal()" id="close">
+                <span class="close">&times;</span>
+            </button>
+                    <p class="modal-window-text">Вход</p>
+                    <p class="text-fill-p">Электронная почта</p>
+                    <input type="email" class="text-fill-input" id="login">
+                    <p class="text-fill-p">Пароль</p>
+                    <input type="password" class="text-fill-input" id="password">
+            <input class="modal-window-btn-down" type="submit" value="Войти" onclick="checkLogin()">
+            <a href="../registration-page/Sign-Up-page.html" class="modal-window-text-regis">Еще не зарегистрированы ?</a>
+        </div>
+    </div>
+<script src="../modal-window/Sign-In-modal-window-js.js"></script>
+
+</body>
+</html>

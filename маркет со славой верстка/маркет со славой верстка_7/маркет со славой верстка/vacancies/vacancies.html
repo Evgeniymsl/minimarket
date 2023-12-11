@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../modal-window/registration-modal-window-style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="vacancies-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Vacancies</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="block-of-logo-and-nav">
+                <img src="/images/logo-white.svg" alt="логотип маркета" class="logo-white">
+                <nav>
+                    <a href="../main.page-folder/main-page.html" class="nav-link">Главная</a>
+                    <a href="../catalog-page-folder/catalog-page.html" class="nav-link">Каталог</a>
+                    <a href="#" class="nav-link" onclick="openModal()">Личный кабинет</a>
+                    <a href="../vacancies/vacancies.html" class="nav-link">Вакансии</a>
+                </nav>
+            </div>
+           <h1 class="vacancies-title">Время работать,<br>пока душа горит</h1>
+           <button class="connect-btn">Связаться с нами</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="search-block">
+                <img src="/images/photo-vacansy-first.png" alt="">
+                <p class="search-desc">
+                    Мы ищем энергичных и ответственных продавцов-консультантов, которые будут работать в нашем минимаркете. Ваша основная задача - обеспечить высокий уровень обслуживания клиентов, предложить им наши продукты и помочь им сделать правильный выбор.
+                </p>
+            </div>
+
+            <div class="responsibilities-block">
+                <div class="responsibilities-block-leftside">
+                    <h2 class="responsibilities-title">
+                        Обязанности:
+                    </h2>
+                        <ul class="responsibilities-desc">
+                            <li>- Приветствовать и обслуживать клиентов с улыбкой, доброжелательностью и вниманием;</li>
+                            <li>- Консультировать клиентов о нашем ассортименте продуктов, предлагать рекомендации и рецепты;</li>
+                            <li>- Поддерживать порядок и чистоту на полках и в торговом зале;</li>
+                            <li>- Оформлять товары на полках и следить за их наличием;</li>
+                            <li>- Обрабатывать платежи от клиентов и выдавать чеки;</li>
+                            <li>- Участвовать в инвентаризации товаров.</li>
+                        </ul>
+                </div>
+                <div class="responsibilities-block-rightside">
+                    <img src="/images/photo-vacansy-second.png" alt="">
+                </div>
+            </div>
+
+            <div class="requirements-block">
+                <div class="requirements-block-leftside">
+                    <img src="/images/photo-vacansy-third.png" alt="">
+                </div>
+                <div class="requirements-block-rightside">
+                    <h2 class="requirements-title">
+                        Требования:
+                    </h2>
+                        <ul class="requirements-desc">
+                            <li>- Опыт работы в розничной торговле приветствуется, но не обязателен;</li>
+                            <li>- Желание обучаться и развиваться в сфере продаж;- Коммуникабельность и умение налаживать контакт с клиентами;</li>
+                            <li>- Ответственность и внимательность к деталям;</li>
+                            <li>- Готовность работать в сменном графике, включая выходные и праздничные дни;</li>
+                            <li>- Знание основных кассовых операций будет преимуществом.</li>
+                        </ul> 
+                </div>
+            </div>
+
+            <div class="offers-block">
+                <div class="offers-block-leftside">
+                    <h2 class="offers-title">
+                        Мы предлагаем:
+                    </h2>
+                        <ul class="offers-desc">
+                            <li>- Конкурентную заработную плату;</li>
+                            <li>- Возможность карьерного роста и развития профессиональных навыков;</li>
+                            <li>- Дружелюбный коллектив и приятную рабочую атмосферу;</li>
+                            <li>- Обучение и поддержку на рабочем месте.</li>
+                        </ul>     
+                    </p>
+                </div>
+                <div class="offers-block-rightside">
+                    <img src="/images/photo-vacansy-fourth.png" alt="">
+                </div>
+            </div>
+
+            <div class="to-send-a-resume-block">
+                <p class="send-desc">
+                    Если вы готовы присоединиться к нашей команде и создавать положительный опыт покупки для наших клиентов, отправьте свое резюме на указанный адрес электронной почты или обратитесь к нам лично в минимаркет. Мы будем рады вас видеть в нашей команде!
+                </p>
+                <button class="send-btn">
+                    Связаться с нами
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-leftside">
+                    <img src="/images/logo-black.svg" alt="логотип маркета" class="footer-logo">
+                    <div class="footer-links">
+                        <a href="" class="footer-link">О нас</a>
+                        <a href="" class="footer-link">Техподдержка</a>
+                        <a href="" class="footer-link">Сотрудничество</a>
+                        <a href="" class="footer-link">контактная информация</a>
+                    </div>
+                </div>
+                <div class="other-sources-block">
+                    <img src="/images/GitHub.svg" alt="Мы на GitHub" class="other-source">
+                    <img src="/images/VK.svg" alt="Мы во вконтакте" class="other-source">
+                    <img src="/images/Telegram.svg" alt="Мы в телеграмме" class="other-source">
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <div class="modal-window" id="myModal">
+        <div class="modal-content" id="myModal1">
+            <button class="modal-window-btn-close" onclick="closeModal()" id="close">
+                <span class="close">&times;</span>
+            </button>
+                    <p class="modal-window-text">Вход</p>
+                    <p class="text-fill-p">Электронная почта</p>
+                    <input type="email" class="text-fill-input" id="login">
+                    <p class="text-fill-p">Пароль</p>
+                    <input type="password" class="text-fill-input" id="password">
+            <input class="modal-window-btn-down" type="submit" value="Войти" onclick="checkLogin()">
+            <a href="../registration-page/Sign-Up-page.html" class="modal-window-text-regis">Еще не зарегистрированы ?</a>
+        </div>
+    </div>
+<script src="../modal-window/Sign-In-modal-window-js.js"></script>
+
+</body>
+</html>
